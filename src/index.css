@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 #root {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.tip{
+
+.tip {
     font-size: 36px;
     text-align: center;
     margin-bottom: 50px;
@@ -25,7 +27,7 @@
     font-size: 48px;
 }
 
-.row {
+.col {
     display: flex;
 }
 
@@ -35,8 +37,8 @@
     position: fixed;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, .3);
-    color: #fff;
+    background: rgba(0, 0, 0, .7);
+    color: red;
     font-size: 36px;
     display: flex;
     justify-content: center;
